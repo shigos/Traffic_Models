@@ -10,6 +10,9 @@ The data was obtained from the city of Chicago's data portal.
 This data was collected by the Chicago Police Department and spans from 2015 to 2021 (Although the data set is being updated daily) 
 The entire dataset is comprised of three csv files [https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if]
 
+Traffic Crash.csv - 522K rows 49 Columns 
+Traffic People.csv - 1.15M rows 30 Columns
+Traffic Vehicle.csv - 1.07M rows 72 Columns 
 
 The traffic CRASH_RECORD_ID is used to link the same crash between crashes in the Vechiles and People datasets
 
