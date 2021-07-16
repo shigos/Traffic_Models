@@ -12,7 +12,7 @@ The entire dataset is comprised of three csv files [https://data.cityofchicago.o
 
 Traffic Crash.csv - 522K rows 49 Columns \
 Traffic People.csv - 1.15M rows 30 Columns\
-Traffic Vehicle.csv - 1.07M rows 72 Columns\
+Traffic Vehicle.csv - 1.07M rows 72 Columns
 
 The traffic CRASH_RECORD_ID is used to link the same crash between crashes in the Vechiles and People datasets
 
