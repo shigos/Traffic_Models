@@ -1,7 +1,8 @@
 # Avoiding Auto Related Accidents and Injuries
-### Purpose
+### Motivation
 There are over 30,000 auto fatal motor vechicle accidents each year in the United States alone.
-The goal of this project is to explore some data to draw conclusions as to certain important factors that we might be able to better prevent auto related injuries and death.
+
+The goal of this project is find some trends and make inferences from the traffic accident data. In order improve safety, we must address all factors big and small. The purpose of applying machine learning is to hopefully shed some light onto underlying factors that may contribute to injuries/death. 
 
 ## EDA
 
