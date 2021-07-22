@@ -36,6 +36,10 @@ fatal_eda contains information contains initial eda prior to cleaning with fatal
 ![fatal_map_plot](https://user-images.githubusercontent.com/76585249/126579407-961a1fd3-4ec8-4419-8d52-303f3fa6b2b0.png)
 
 The EDA shows that fatal accidents have a rate of occcurence in certain districts. Further investigation into enviornmental factors would be required to determine causation.
+The graph below shows a bar graph of the occurences of crashes in the entire dataframe both fatal and non fata.
+It seems that despite district 8 being the location where most crashes are occuring, there is a reason not yet discovered resulting in the higher number of fatal crashes in districts 11 and 1 shown in the graph. 
+![districts ](https://user-images.githubusercontent.com/76585249/126584127-f1af04cf-747e-4094-adc9-c61d805f1ec1.png)
+Graph shows District of Crash Occurrence of Overall whole data set.
 
 ![fatal month](https://user-images.githubusercontent.com/76585249/126584115-48e2d7e1-1252-4a26-84cc-33dbcff54a14.png)
 
@@ -46,7 +50,5 @@ Initially the target was chosen based off of fatal accidents. Given the limited 
 ![Hourly crash](https://user-images.githubusercontent.com/76585249/126584121-7ea707ec-7ba3-413b-a285-bc32f1ad184f.png)
 
 The time frame that encompases afternoon rush hour shows the largest number of crash occurences. The large number of accidents occuring at this time approprately corresponds to the number of cars on the road during peak traffic hours.
-
-![districts ](https://user-images.githubusercontent.com/76585249/126584127-f1af04cf-747e-4094-adc9-c61d805f1ec1.png)
 
 
