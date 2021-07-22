@@ -60,10 +60,14 @@ Modeling was done first with Logistic Regression and a subsample of 10,000 rows 
 
 Graphs below shows the first model used with no paramater tuning: 10k rows and 10 features
 
+![log first](https://user-images.githubusercontent.com/76585249/126593074-b8d5e98d-eeec-49eb-b3db-d3ea7df15592.png)  
 
-| Random Forest  | Second Header |
+
+| Random Forest ROC | Random Forest Precision |
 | ------------- | ------------- |
-| ![log first](https://user-images.githubusercontent.com/76585249/126593074-b8d5e98d-eeec-49eb-b3db-d3ea7df15592.png)  | ![random forest first(2)](https://user-images.githubusercontent.com/76585249/126593279-bcd1b1c6-608a-4425-bcc2-5f2c134aa282.png)  |
+| ![random forest first(2)](https://user-images.githubusercontent.com/76585249/126593279-bcd1b1c6-608a-4425-bcc2-5f2c134aa282.png)   | ![random forest first](https://user-images.githubusercontent.com/76585249/126593422-092550e9-0b6c-4aac-8822-41ad9a91da03.png)
+ |
+
 
 
 
