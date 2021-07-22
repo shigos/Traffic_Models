@@ -6,6 +6,8 @@
 3. [Cleaning/Notebooks](https://github.com/shigos/Traffic_Models/blob/main/README.md#data-description)
 4. [EDA](https://github.com/shigos/Traffic_Models/blob/main/README.md#eda)
 5. [Models]()
+6. [Conclusion]()
+
 ### Motivation
 There are over 30,000 auto fatal motor vechicle accidents each year in the United States alone.
 
@@ -53,3 +55,4 @@ Initially the target was chosen based off of fatal accidents. Given the limited 
 The time frame that encompases afternoon rush hour shows the largest number of crash occurences. The large number of accidents occuring at this time approprately corresponds to the number of cars on the road during peak traffic hours.
 
 
+## Modeling
