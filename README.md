@@ -1,4 +1,4 @@
-# Avoiding Auto Related Accidents and Injuries
+# Avoiding Auto Related Injuries
 
 # Table of Contents
 1. [Motivation](https://github.com/shigos/Traffic_Models/blob/main/README.md#motivation) 
