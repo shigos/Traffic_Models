@@ -2,6 +2,7 @@
 
 # Table of Contents
 1.[Motivation](https://github.com/shigos/Traffic_Models/blob/main/README.md#motivation)
+
 2.[EDA](https://github.com/shigos/Traffic_Models/blob/main/README.md#eda)
 
 ### Motivation
