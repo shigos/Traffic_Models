@@ -75,3 +75,4 @@ Graphs below shows the first model used with no paramater tuning: 10k rows and 1
 
 
 ## Conclusion
+Drawing feature importances, I used a combination of shapely values as well as coeficcients from the best performing models. Although the many of the feature importances contributing to crash injury seemed obvious such as "Following too closely", "Airbag Deployment" and "Driver's Physical Condition". Other not so apparent features that I found based off my findings included "District 11" and "Trafficway- Parkinglot". Although the determinant factor is not explicit, I can infer that this is most likely due to envornmental reasons. For those looking to address this I would advise looking at the structure 
