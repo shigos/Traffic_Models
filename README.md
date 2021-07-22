@@ -6,7 +6,7 @@
 3. [Cleaning/Notebooks](https://github.com/shigos/Traffic_Models/blob/main/README.md#data-description)
 4. [EDA](https://github.com/shigos/Traffic_Models/blob/main/README.md#eda)
 5. [Models](https://github.com/shigos/Traffic_Models/blob/main/README.md#modeling)
-6. [Conclusion]()
+6. [Conclusion](https://github.com/shigos/Traffic_Models/blob/main/README.md#modeling)
 
 ### Motivation
 There are over 30,000 auto fatal motor vechicle accidents each year in the United States alone.
