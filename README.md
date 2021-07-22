@@ -34,6 +34,7 @@ fatal_eda contains information contains initial eda prior to cleaning with fatal
 ## EDA
 
 ![fatal_map_plot](https://user-images.githubusercontent.com/76585249/126579407-961a1fd3-4ec8-4419-8d52-303f3fa6b2b0.png)
+
 The EDA shows that fatal accidents have a rate of occcurence in certain districts. Further investigation into enviornmental factors would be required to determine causation.
 
 ![fatal month](https://user-images.githubusercontent.com/76585249/126584115-48e2d7e1-1252-4a26-84cc-33dbcff54a14.png)
