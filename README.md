@@ -9,7 +9,7 @@
 ### Motivation
 There are over 30,000 auto fatal motor vechicle accidents each year in the United States alone.
 
-The goal of this project is find some trends and make inferences from the traffic accident data. In order improve safety, we must address all factors big and small. The purpose of applying machine learning is to hopefully shed some light onto underlying factors that may contribute to injuries/death. 
+The goal of this project is find trends and make inferences from the traffic accident data. In order improve safety, we should account all factors big and small. In this project I will be applying machine learning models to shed some light onto underlying factors that may contribute to injuries/death. The intention of finding these insights will lead us closer to factors which we can explore to improve saftey and prevent death.
 
 
 
@@ -39,6 +39,9 @@ The EDA shows that fatal accidents have a rate of occcurence in certain district
 
 ![fatal month](https://user-images.githubusercontent.com/76585249/126584115-48e2d7e1-1252-4a26-84cc-33dbcff54a14.png)
 
+May shows disproportionately higher fatal accidents than other months even of the same season. Of the total fatal crashes in the data, 19% of all fatal crashes occured in May. /
+
+Initially the target was chosen based off of fatal accidents. Given the limited amount of time, this was altered to 
 
 ![Hourly crash](https://user-images.githubusercontent.com/76585249/126584121-7ea707ec-7ba3-413b-a285-bc32f1ad184f.png)
 
