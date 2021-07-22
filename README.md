@@ -1,7 +1,7 @@
 # Avoiding Auto Related Accidents and Injuries
 
 # Table of Contents
-1. [Motivation](https://github.com/shigos/Traffic_Models/blob/main/README.md#motivation) \n
+1. [Motivation](https://github.com/shigos/Traffic_Models/blob/main/README.md#motivation) 
 2. [Data Description]()
 3. [EDA](https://github.com/shigos/Traffic_Models/blob/main/README.md#eda)
 
