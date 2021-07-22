@@ -1,9 +1,9 @@
 # Avoiding Auto Related Accidents and Injuries
 
 # Table of Contents
-1.[Motivation](https://github.com/shigos/Traffic_Models/blob/main/README.md#motivation)
+1. [Motivation](https://github.com/shigos/Traffic_Models/blob/main/README.md#motivation)
 
-2.[EDA](https://github.com/shigos/Traffic_Models/blob/main/README.md#eda)
+2. [EDA](https://github.com/shigos/Traffic_Models/blob/main/README.md#eda)
 
 ### Motivation
 There are over 30,000 auto fatal motor vechicle accidents each year in the United States alone.
