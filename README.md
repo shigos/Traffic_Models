@@ -27,7 +27,7 @@ Traffic Vehicle.csv - 1.07M rows 72 Columns
 The traffic CRASH_RECORD_ID is used to link the same crash between crashes in the Vehicles and People datasets
 
 ## Cleaning/Notebooks 
-Given the large amount of data in this project I decided to start by cleaning data in the individual csv files. Three notebooks were created using the original csv titles as the notebook title. A notebook titled full_note.ipynb contains the initial join of the three raw data frames before cleaning. Missing and nan values were filled using with "Unknown" and "Nans" represented by 0. Columns which classified a binary outcome were filled accordingly and missing values were considered 0. Cleaning was done individually to each individual csv files. Upon joining the three "cleaned" data sets on CRASH_RECORD_ID a new data frame was created which was named clean_merge_note which contains most of the eda and modeling information in this project. A target using INJURIES_TOTAL column was feature engineered for determining whether the crash resulted in injury.
+Given the large amount of data in this project I decided to start by cleaning data in the individual csv files. Three notebooks were created using the original csv titles as the notebook title. A notebook titled full_note.ipynb contains the initial join of the three raw data frames before cleaning. Missing and nan values were filled using with "Unknown" and "Nans" represented by 0. Columns which classified a binary outcome were filled accordingly and missing values were considered 0. Cleaning was done individually to each individual csv files. Upon joining the three "cleaned" data sets on CRASH_RECORD_ID a new data frame was created which was named clean_merge_note which contains most of the eda and modeling information in this project. A target using INJURIES_TOTAL column was feature engineered for determining whether the crash resulted in injury. Given the catagorical nature of htis data set, the final data set was fed into the models with primarily binary features created by dummy variables.
 
 A copy was made to make the initial model which was used as a baseline in clean_merge_note1.
 full_note contains initial eda prior to cleaning.
@@ -66,13 +66,22 @@ Graphs below shows the first model used with no paramater tuning: 10k rows and 1
 | Random Forest ROC | Random Forest Precision |
 | ------------- | ------------- |
 | ![random forest first(2)](https://user-images.githubusercontent.com/76585249/126593279-bcd1b1c6-608a-4425-bcc2-5f2c134aa282.png)   | ![random forest first](https://user-images.githubusercontent.com/76585249/126593422-092550e9-0b6c-4aac-8822-41ad9a91da03.png)
- |
+ 
+ 
+Final Model shown below used a Random Forest Classifer with a balanced sample of training data tested against subsample of original data set with skewed class balances. 100k rows were used and 30 features. 
 
 
 
 
 
+
+
+| ROC | Precision |
+| ------------- | ------------- |
+| ![random forest clas1](https://user-images.githubusercontent.com/76585249/126596319-d2be4876-b2f4-48c0-8d60-46c6472120a8.png) | ![Random forest clas](https://user-images.githubusercontent.com/76585249/126596331-45c84fb3-a5ee-4ba4-9225-eeecdf094a9a.png) |
+
+Final Model is the Balanced Data(Orange Line)
 
 
 ## Conclusion
-Drawing feature importances, I used a combination of shapely values as well as coeficcients from the best performing models. Although the many of the feature importances contributing to crash injury seemed obvious such as "Following too closely", "Airbag Deployment" and "Driver's Physical Condition". Other not so apparent features that I found based off my findings included "District 11" and "Trafficway- Parkinglot". Although the determinant factor is not explicit, I can infer that this is most likely due to envornmental reasons. For those looking to address this I would advise looking at road infrastructure/layouts , road conditions, and street signage for possible faults.
+Drawing feature importances, I used a combination of shapely values as well as coeficients from the best performing models. Although the many of the feature importances contributing to crash injury seemed obvious such as "Following too closely", "Airbag Deployment" and "Driver's Physical Condition". Other not so apparent features that I found based off my findings included "District 11" and "Trafficway- Parkinglot". Although the determinant factor is not explicit, I can infer that this is most likely due to envornmental reasons. For those looking to address this I would advise looking at road infrastructure/layouts , road conditions, and street signage for possible faults.
