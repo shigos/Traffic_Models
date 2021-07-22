@@ -5,7 +5,7 @@
 2. [Data Description](https://github.com/shigos/Traffic_Models/blob/main/README.md#data-description)
 3. [Cleaning/Notebooks](https://github.com/shigos/Traffic_Models/blob/main/README.md#data-description)
 4. [EDA](https://github.com/shigos/Traffic_Models/blob/main/README.md#eda)
-5. [Models]()
+5. [Models](https://github.com/shigos/Traffic_Models/blob/main/README.md#modeling)
 6. [Conclusion]()
 
 ### Motivation
@@ -56,3 +56,5 @@ The time frame that encompases afternoon rush hour shows the largest number of c
 
 
 ## Modeling
+
+## Conclusion
