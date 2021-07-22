@@ -39,6 +39,7 @@ The EDA shows that fatal accidents have a rate of occcurence in certain district
 The graph below shows a bar graph of the occurences of crashes in the entire dataframe both fatal and non fata.
 It seems that despite district 8 being the location where most crashes are occuring, there is a reason not yet discovered resulting in the higher number of fatal crashes in districts 11 and 1 shown in the graph. 
 ![districts ](https://user-images.githubusercontent.com/76585249/126584127-f1af04cf-747e-4094-adc9-c61d805f1ec1.png)
+
 Graph shows District of Crash Occurrence of Overall whole data set.
 
 ![fatal month](https://user-images.githubusercontent.com/76585249/126584115-48e2d7e1-1252-4a26-84cc-33dbcff54a14.png)
