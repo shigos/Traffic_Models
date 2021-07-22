@@ -39,11 +39,12 @@ The EDA shows that fatal accidents have a rate of occcurence in certain district
 
 ![fatal month](https://user-images.githubusercontent.com/76585249/126584115-48e2d7e1-1252-4a26-84cc-33dbcff54a14.png)
 
-May shows disproportionately higher fatal accidents than other months even of the same season. Of the total fatal crashes in the data, 19% of all fatal crashes occured in May. /
+May shows disproportionately higher fatal accidents than other months even of the same season. Of the total fatal crashes in the data, 19% of all fatal crashes occured in May. 
 
-Initially the target was chosen based off of fatal accidents. Given the limited amount of time, this was altered to 
+Initially the target was chosen based off of fatal accidents. Given the limited amount of time, this was altered to reflect injuries resulting from the crash.
 
 ![Hourly crash](https://user-images.githubusercontent.com/76585249/126584121-7ea707ec-7ba3-413b-a285-bc32f1ad184f.png)
+The time frame that encompases afternoon rush hour shows the largest number of crash occurences. The large number of accidents occuring at this time approprately corresponds to the number of cars on the road during peak traffic hours.
 
 ![districts ](https://user-images.githubusercontent.com/76585249/126584127-f1af04cf-747e-4094-adc9-c61d805f1ec1.png)
 
