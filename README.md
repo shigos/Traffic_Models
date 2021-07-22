@@ -3,8 +3,9 @@
 # Table of Contents
 1. [Motivation](https://github.com/shigos/Traffic_Models/blob/main/README.md#motivation) 
 2. [Data Description](https://github.com/shigos/Traffic_Models/blob/main/README.md#data-description)
-3. [EDA](https://github.com/shigos/Traffic_Models/blob/main/README.md#eda)
-4. [Models]()
+3. [Cleaning/Notebooks](https://github.com/shigos/Traffic_Models/blob/main/README.md#data-description)
+4. [EDA](https://github.com/shigos/Traffic_Models/blob/main/README.md#eda)
+5. [Models]()
 ### Motivation
 There are over 30,000 auto fatal motor vechicle accidents each year in the United States alone.
 
