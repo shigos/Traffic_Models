@@ -23,4 +23,12 @@ Traffic Vehicle.csv - 1.07M rows 72 Columns
 
 The traffic CRASH_RECORD_ID is used to link the same crash between crashes in the Vehicles and People datasets
 
+## Cleaning/Notebooks 
+Given the large amount of data in this project I decided to start by cleaning data in the individual csv files. Three notebooks were created using the original csv titles as the notebook title. A notebook titled full_note.ipynb contains the initial join of the three raw data frames before cleaning. Missing and nan values were filled using with "Unknown" and "Nans" represented by 0. Columns which classified a binary outcome were filled accordingly and missing values were considered 0. Cleaning was done individually to each individual csv files. Upon joining the three "cleaned" data sets on CRASH_RECORD_ID a new data frame was created which was named clean_merge_note. A copy was made to make the initial model which was used as a baseline in clean_merge_note1.
+
+full_note contains initial eda prior to cleaning.
+fatal_eda contains information contains initial eda prior to cleaning with fatal crashes isolated for data exploration.
+
 ## EDA
+The 
+![fatal_map_plot](https://user-images.githubusercontent.com/76585249/126579407-961a1fd3-4ec8-4419-8d52-303f3fa6b2b0.png)
