@@ -1,6 +1,6 @@
 # Avoiding Auto Related Accidents and Injuries
 
-#Table of Contents
+# Table of Contents
 1.[EDA](##EDA)
 ### Motivation
 There are over 30,000 auto fatal motor vechicle accidents each year in the United States alone.
