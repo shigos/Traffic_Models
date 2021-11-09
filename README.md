@@ -58,7 +58,7 @@ The time frame that encompases afternoon rush hour shows the largest number of c
 ## Modeling
 Modeling was done first with Logistic Regression and a subsample of 10,000 rows and 10 features. This is shown in the clean_note_copy version of the notebook. Models using Random Forest as well as Gradient Boosted Trees were implemented with results only slightly improved from the first model. Due to the presence of class a class imbalance of target class(crashes resulting in injury) a balanced sample was taken for model comparison. A equal number of samples were taken using a random method without for model training. This was tested against a randomly sampled data of the skewed data from the original data set. 
 
-Graphs below shows the first model used with no paramater tuning: 10k rows and 10 features
+Graphs below shows the first model used with no hyperparamater tuning: 10k rows and 10 features
 
 ![log first](https://user-images.githubusercontent.com/76585249/126593074-b8d5e98d-eeec-49eb-b3db-d3ea7df15592.png)  
 
